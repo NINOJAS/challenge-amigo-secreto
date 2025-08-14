@@ -6,6 +6,8 @@ function agregarAmigo() {
     alert("por favor, ingrese un nombre");
     return;
   }
+  nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase();
+  
     amigos.push(nombre);
   document.getElementById("nombreAmigo").value = "";
   mostrarLista();
