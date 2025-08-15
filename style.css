@@ -183,3 +183,35 @@ ul {
   background-color: rgba(255, 0, 0, 0.1); 
   border-radius: 4px;
 }
+
+.button-restart {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color:#419228;
+    font-size: 16px;
+}
+
+.button-restart img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+.button-restart:hover {
+    background-color: #4daa31;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+}
+
+.button-draw,
+.button-restart {
+  width: auto; 
+}
